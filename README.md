@@ -25,7 +25,8 @@ do shell script "networksetup -setdnsservers Wi-Fi Empty" with administrator pri
 ```
 
 2. Exposing Ollama to Tailscale
-   To access your Mac's LLMs from a remote VPS:
+   
+To access your Mac's LLMs from a remote VPS:
    1. Set the Host Variable:
    ```Bash
       launchctl setenv OLLAMA_HOST "0.0.0.0"
@@ -47,8 +48,10 @@ Hardware:
 
 ---
 
-📝 Background
+## 📝 Background
+
 This project was born out of the necessity to manage a complex hybrid network stack (Work VPNs vs. Private Meshnets) without losing access to local infrastructure and AI services.
 
-⚖️ License
+## ⚖️ License
+
 Distributed under the MIT License. See LICENSE for more information.
